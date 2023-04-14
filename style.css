@@ -1,0 +1,93 @@
+/* Estilos para el encabezado */
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* Estilos para la imagen */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el enlace */
+a {
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 1em;
+  color: #333;
+  text-decoration: none;
+  border: 2px solid #333;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  background: linear-gradient(to bottom right, #ff9933, #ff66cc);
+}
+
+/* Estilos para cada persona */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.column {
+  flex: 0 0 33.33%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.persona {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.persona img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para las habilidades */
+.habilidades {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.habilidades h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.habilidad {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #333;
+  color: #fff;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.habilidad:hover {
+  background-color: #
